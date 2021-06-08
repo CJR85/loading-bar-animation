@@ -42,6 +42,18 @@ body {
   pointer-events: none;
 }
 
+.container .loading::after {
+  content: '';
+  position: absolute;
+  top: 27px;
+  right: 20px;
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  background: #22e4e3;
+  box-shadow: 0 0 5px #22e4e3, 0 0 10px #22e4e3, 0 0 40px #22e4e3;
+}
+
 .container .loading .text {
   position: relative;
   width: 80px;
